@@ -1,0 +1,254 @@
+{
+  "demo": true,
+  "notice": "Demo norms — replace after clinical calibration.",
+  "bands": {
+    "5-6": {
+      "T1": {
+        "mean": 68,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T2": {
+        "mean": 70,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T3": {
+        "mean": 66,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T4": {
+        "mean": 64,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T5": {
+        "mean": 30,
+        "sd": 8,
+        "higherIsBetter": true
+      },
+      "T6": {
+        "mean": 72,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T7": {
+        "mean": 60,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T8": {
+        "mean": 62,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T9": {
+        "mean": 78,
+        "sd": 10,
+        "higherIsBetter": true
+      },
+      "T10": {
+        "mean": 70,
+        "sd": 18,
+        "higherIsBetter": true
+      },
+      "T12": {
+        "mean": 74,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "Q": {
+        "mean": 3,
+        "sd": 2,
+        "higherIsBetter": false
+      }
+    },
+    "7-8": {
+      "T1": {
+        "mean": 74,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T2": {
+        "mean": 76,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T3": {
+        "mean": 72,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T4": {
+        "mean": 70,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T5": {
+        "mean": 36,
+        "sd": 8,
+        "higherIsBetter": true
+      },
+      "T6": {
+        "mean": 78,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T7": {
+        "mean": 66,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T8": {
+        "mean": 68,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T9": {
+        "mean": 84,
+        "sd": 10,
+        "higherIsBetter": true
+      },
+      "T10": {
+        "mean": 76,
+        "sd": 18,
+        "higherIsBetter": true
+      },
+      "T12": {
+        "mean": 80,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "Q": {
+        "mean": 3,
+        "sd": 2,
+        "higherIsBetter": false
+      }
+    },
+    "9-10": {
+      "T1": {
+        "mean": 78,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T2": {
+        "mean": 80,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T3": {
+        "mean": 76,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T4": {
+        "mean": 74,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T5": {
+        "mean": 40,
+        "sd": 8,
+        "higherIsBetter": true
+      },
+      "T6": {
+        "mean": 82,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T7": {
+        "mean": 70,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T8": {
+        "mean": 72,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T9": {
+        "mean": 88,
+        "sd": 10,
+        "higherIsBetter": true
+      },
+      "T10": {
+        "mean": 80,
+        "sd": 18,
+        "higherIsBetter": true
+      },
+      "T12": {
+        "mean": 84,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "Q": {
+        "mean": 3,
+        "sd": 2,
+        "higherIsBetter": false
+      }
+    },
+    "11-13": {
+      "T1": {
+        "mean": 82,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T2": {
+        "mean": 84,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T3": {
+        "mean": 80,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T4": {
+        "mean": 78,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T5": {
+        "mean": 44,
+        "sd": 8,
+        "higherIsBetter": true
+      },
+      "T6": {
+        "mean": 86,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T7": {
+        "mean": 74,
+        "sd": 14,
+        "higherIsBetter": true
+      },
+      "T8": {
+        "mean": 76,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "T9": {
+        "mean": 92,
+        "sd": 10,
+        "higherIsBetter": true
+      },
+      "T10": {
+        "mean": 84,
+        "sd": 18,
+        "higherIsBetter": true
+      },
+      "T12": {
+        "mean": 88,
+        "sd": 12,
+        "higherIsBetter": true
+      },
+      "Q": {
+        "mean": 3,
+        "sd": 2,
+        "higherIsBetter": false
+      }
+    }
+  }
+}

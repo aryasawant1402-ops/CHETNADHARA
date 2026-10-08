@@ -1,0 +1,465 @@
+{
+  "notice": "Practice map by profile tendency, age band, and severity. Phonics stays in every path. Live rhyme, word, and story text is fetched when the network allows.",
+  "activities": [
+    {
+      "id": "warmup-letters",
+      "phase": "warmup",
+      "kind": "letters",
+      "title": "Letter-sound warm-up",
+      "minutes": 4,
+      "summary": "Match letters to their sounds. Phonics is the base for every child.",
+      "offline": "Trace letters in clay and say the sound as you make them.",
+      "api": null
+    },
+    {
+      "id": "warmup-rhyme",
+      "phase": "warmup",
+      "kind": "rhyme",
+      "title": "Rhyme match",
+      "minutes": 4,
+      "summary": "Pick the rhyming word. Choices come from the Datamuse rhyme API when you are online.",
+      "offline": "Play a sound hunt: find three things that rhyme with cat.",
+      "api": "datamuse"
+    },
+    {
+      "id": "warmup-blend",
+      "phase": "warmup",
+      "kind": "blend",
+      "title": "Push the sounds",
+      "minutes": 4,
+      "summary": "Blend sounds into a word, one sound at a time.",
+      "offline": "Clap a word into sounds, then push the sounds back together.",
+      "api": null
+    },
+    {
+      "id": "warmup-irregular",
+      "phase": "warmup",
+      "kind": "irregular",
+      "title": "Tricky-word recall",
+      "minutes": 4,
+      "summary": "Look, hide, and find irregular words such as said and was. Pronunciations come from the dictionary API when you are online.",
+      "offline": "Make colour-coded word cards for said, was, and the.",
+      "api": "dictionary"
+    },
+    {
+      "id": "warmup-spelling",
+      "phase": "warmup",
+      "kind": "spelling",
+      "title": "Spot the spelling",
+      "minutes": 4,
+      "summary": "Choose the spelling that matches the spoken word.",
+      "offline": "Spell tricky words with magnetic letters.",
+      "api": "dictionary"
+    },
+    {
+      "id": "warmup-naming",
+      "phase": "warmup",
+      "kind": "naming",
+      "title": "Gentle naming",
+      "minutes": 4,
+      "summary": "Name pictures or colours at a calm pace and beat your own score.",
+      "offline": "Play a naming game in the car: colours, then animals.",
+      "api": null
+    },
+    {
+      "id": "warmup-morph",
+      "phase": "warmup",
+      "kind": "morphology",
+      "title": "Build the word",
+      "minutes": 5,
+      "summary": "Join a base word with a prefix or suffix.",
+      "offline": "Write a base word and add -ing or -ed on paper slips.",
+      "api": null
+    },
+    {
+      "id": "warmup-vocab",
+      "phase": "warmup",
+      "kind": "vocabulary",
+      "title": "Word links",
+      "minutes": 5,
+      "summary": "Connect a word to a related word. Related words come from Datamuse.",
+      "offline": "Pick a word from a book and say two words it makes you think of.",
+      "api": "datamuse"
+    },
+    {
+      "id": "spark-rhyme",
+      "phase": "spark",
+      "kind": "rhyme",
+      "title": "Rhyme tap",
+      "minutes": 4,
+      "summary": "Tap the rhyme in time with a slow beat. Active, not flashy.",
+      "offline": "March in place and say a rhyme on each step.",
+      "api": "datamuse"
+    },
+    {
+      "id": "spark-naming",
+      "phase": "spark",
+      "kind": "naming",
+      "title": "Naming beat",
+      "minutes": 4,
+      "summary": "Tap each item as you name it and try to beat your own score.",
+      "offline": "Echo-name objects around the room with a parent.",
+      "api": null
+    },
+    {
+      "id": "spark-voice",
+      "phase": "spark",
+      "kind": "echo",
+      "title": "Echo voice",
+      "minutes": 4,
+      "summary": "Listen, then say the line back with your voice.",
+      "offline": "Take turns echo-reading one sentence each.",
+      "api": null
+    },
+    {
+      "id": "spark-puzzle",
+      "phase": "spark",
+      "kind": "puzzle",
+      "title": "Pattern spark",
+      "minutes": 4,
+      "summary": "Finish a shape pattern. A confident win in a strong skill.",
+      "offline": "Build the same pattern with spoons or blocks on the table.",
+      "api": null
+    },
+    {
+      "id": "wind-story",
+      "phase": "winddown",
+      "kind": "story",
+      "title": "Calm story",
+      "minutes": 6,
+      "summary": "A short public-domain story with audio support, then a mood check.",
+      "offline": "Retell the story in your own words before bed.",
+      "api": "childrenstory"
+    },
+    {
+      "id": "wind-breathe",
+      "phase": "winddown",
+      "kind": "breathe",
+      "title": "Slow breathing",
+      "minutes": 3,
+      "summary": "Breathe in and out together, then mark how the session felt.",
+      "offline": "Three slow breaths, then a stretch.",
+      "api": null
+    }
+  ],
+  "matrix": {
+    "phonological": {
+      "5-7": {
+        "mild": [
+          "warmup-letters",
+          "warmup-rhyme",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-letters",
+          "warmup-rhyme",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-letters",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "8-10": {
+        "mild": [
+          "warmup-blend",
+          "warmup-rhyme",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-blend",
+          "warmup-rhyme",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-blend",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "11-13": {
+        "mild": [
+          "warmup-morph",
+          "warmup-blend",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-morph",
+          "warmup-blend",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-morph",
+          "wind-breathe",
+          "wind-story"
+        ]
+      }
+    },
+    "surface-orthographic": {
+      "5-7": {
+        "mild": [
+          "warmup-irregular",
+          "warmup-spelling",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-irregular",
+          "warmup-spelling",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-irregular",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "8-10": {
+        "mild": [
+          "warmup-spelling",
+          "warmup-irregular",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-spelling",
+          "warmup-irregular",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-spelling",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "11-13": {
+        "mild": [
+          "warmup-spelling",
+          "warmup-vocab",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-spelling",
+          "warmup-vocab",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-spelling",
+          "wind-breathe",
+          "wind-story"
+        ]
+      }
+    },
+    "rapid-naming": {
+      "5-7": {
+        "mild": [
+          "warmup-naming",
+          "spark-naming",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-naming",
+          "spark-naming",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-naming",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "8-10": {
+        "mild": [
+          "warmup-naming",
+          "spark-naming",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-naming",
+          "spark-naming",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-naming",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "11-13": {
+        "mild": [
+          "warmup-naming",
+          "spark-naming",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-naming",
+          "spark-naming",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-naming",
+          "wind-breathe",
+          "wind-story"
+        ]
+      }
+    },
+    "double-deficit": {
+      "5-7": {
+        "mild": [
+          "warmup-letters",
+          "warmup-naming",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-letters",
+          "warmup-naming",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-letters",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "8-10": {
+        "mild": [
+          "warmup-blend",
+          "warmup-naming",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-blend",
+          "warmup-naming",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-blend",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "11-13": {
+        "mild": [
+          "warmup-morph",
+          "warmup-naming",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-morph",
+          "warmup-naming",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-morph",
+          "wind-breathe",
+          "wind-story"
+        ]
+      }
+    },
+    "mixed": {
+      "5-7": {
+        "mild": [
+          "warmup-letters",
+          "warmup-irregular",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-letters",
+          "warmup-irregular",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-letters",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "8-10": {
+        "mild": [
+          "warmup-blend",
+          "warmup-spelling",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-blend",
+          "warmup-spelling",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-blend",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "11-13": {
+        "mild": [
+          "warmup-morph",
+          "warmup-spelling",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-morph",
+          "warmup-spelling",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-morph",
+          "wind-breathe",
+          "wind-story"
+        ]
+      }
+    },
+    "no-clear-pattern": {
+      "5-7": {
+        "mild": [
+          "warmup-letters",
+          "warmup-rhyme",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-letters",
+          "warmup-rhyme",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-letters",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "8-10": {
+        "mild": [
+          "warmup-blend",
+          "warmup-letters",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-blend",
+          "warmup-letters",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-blend",
+          "wind-breathe",
+          "wind-story"
+        ]
+      },
+      "11-13": {
+        "mild": [
+          "warmup-morph",
+          "warmup-vocab",
+          "spark-voice"
+        ],
+        "moderate": [
+          "warmup-morph",
+          "warmup-vocab",
+          "wind-story"
+        ],
+        "severe": [
+          "warmup-morph",
+          "wind-breathe",
+          "wind-story"
+        ]
+      }
+    }
+  }
+}

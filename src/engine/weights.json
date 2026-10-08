@@ -1,0 +1,9 @@
+{
+  "phonological": 0.25,
+  "decoding": 0.2,
+  "naming": 0.15,
+  "orthographic": 0.15,
+  "fluency": 0.1,
+  "workingMemory": 0.05,
+  "questionnaire": 0.1
+}
